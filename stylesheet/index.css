@@ -341,16 +341,15 @@
   width: 480px;
   border-radius: 8px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
-  grid-template-rows: repeat(3, 1fr); /* 3 filas iguales */
-  gap: 5px; /* Espacio entre celdas */
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 5px;
 
 }
 
 /* Estilo para las imágenes */
 .container-grid img {
-  width: 100%; /* Ajustar el ancho de las imágenes al 100% del contenedor */
-  height: 100%; /* Ajustar la altura de las imágenes al 100% del contenedor */
-  object-fit: cover; /* Redimensionar las imágenes manteniendo su relación de aspecto */
-
+  width: 100%;
+  height: 100%; 
+  object-fit: cover; 
 }
