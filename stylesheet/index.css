@@ -336,14 +336,13 @@
 }
 
 .container-grid {
-  background-color: antiquewhite;
   height: 480px;
   width: 480px;
   border-radius: 8px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  gap: 5px;
+  gap: 3px;
 
 }
 
