@@ -98,7 +98,6 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 60px;
   background-color: white;
 }
 .afv {
@@ -163,21 +162,25 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 1263px;
 }
 .dentro-container{
   display: flex;
+  justify-content: ;
   justify-content: space-around;
   padding-top: 20px;
   width: 892px;
-  height: 1021px;
+  height: 950px;
+}
+.info-der{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .info-der .card-der{
   width: 360px;
   background-color: white;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.216);
   border-radius: 8px;
-  height: 964px;
   & h2{
     font-size: 20px;
     padding: 20px 16px ;
@@ -185,7 +188,7 @@
 }
 
 .info-iz .info {
-  padding: 16px 32px 32px 16px;
+  padding: 16px 20px 32px 16px;
   background-color: white;
   display: flex;
   border-radius: 8px;
@@ -284,4 +287,34 @@
 .contenedor-ver-mas:hover{
   cursor: pointer;
   background-color: rgb(198, 200, 205);
+}
+
+.otras-personas-parecidas-conteiner{
+  width: 100%;
+  & .otras{
+    padding: 0 16px;
+    height: 180px;
+  }
+  & .persona{
+    display: flex;
+    height: 56px;
+    align-items: center;
+    border-radius: 6px;
+  }
+  & .imagen{
+    width: 40px;
+    height: 40px;
+    & img{
+      border-radius: 50%
+    }
+  }
+  & .nombre-persona{
+    display: flex;
+    align-items: center;
+    height: 56px;
+    width: 244px;
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 15px;
+  }
 }
