@@ -324,5 +324,33 @@
   background-color: white;
   height: 543px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.216);
+  padding: 16px;
+  & .texto{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    & a{
+      text-decoration: none;
+    }
+  }
+}
+
+.container-grid {
+  background-color: antiquewhite;
+  height: 480px;
+  width: 480px;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+  grid-template-rows: repeat(3, 1fr); /* 3 filas iguales */
+  gap: 5px; /* Espacio entre celdas */
+
+}
+
+/* Estilo para las imágenes */
+.container-grid img {
+  width: 100%; /* Ajustar el ancho de las imágenes al 100% del contenedor */
+  height: 100%; /* Ajustar la altura de las imágenes al 100% del contenedor */
+  object-fit: cover; /* Redimensionar las imágenes manteniendo su relación de aspecto */
 
 }
