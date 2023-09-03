@@ -165,7 +165,6 @@
 }
 .dentro-container{
   display: flex;
-  justify-content: ;
   justify-content: space-around;
   padding-top: 20px;
   width: 892px;
@@ -178,8 +177,8 @@
 }
 .info-der .card-der{
   width: 360px;
-  background-color: white;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.216);
+  background-color: white;
   border-radius: 8px;
   & h2{
     font-size: 20px;
@@ -317,4 +316,13 @@
     font-weight: 600;
     font-size: 15px;
   }
+}
+
+.cuadricula{
+  margin-top: 16px;
+  border-radius: 16px;
+  background-color: white;
+  height: 543px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.216);
+
 }
