@@ -1,0 +1,230 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.contenedor {
+  background: rgb(229, 232, 237);
+  width: 100%;
+  height: 100vh;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 0 20px;
+  height: 56px;
+}
+.nav-bar img {
+  height: 56px;
+}
+
+.formulario form {
+  /* background-color: aqua; */
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+.formulario input {
+  font-weight: bold;
+  padding: 8px 12px 10px 12px;
+  margin: 3px;
+  border-radius: 6px 8px;
+  border-color: beige;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.input-boton button {
+  width: 120px;
+  padding: 8px 12px 10px 12px;
+  background-color: rgb(27, 116, 228);
+  border-radius: 6px 8px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+.input-boton button:hover {
+  background-color: rgb(24, 108, 211);
+}
+
+.olvidado a {
+  margin-left: 12px;
+  text-decoration: none;
+  color: rgb(27, 116, 228);
+}
+
+.portada {
+  background: linear-gradient(rgba(128, 128, 128, 0.211), white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 348px;
+  overflow: hidden;
+}
+.fotonombre {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  height: 86px;
+  width: 100%;
+  font-size: 32px;
+}
+.midfotnom {
+  display: flex;
+  height: 86px;
+  width: 876px;
+  border-bottom: 1px solid rgba(156, 156, 156, 0.4);
+}
+.midfotnom img {
+  position: relative;
+  bottom: 100px;
+  height: 168px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.midfotnom .nombre {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+.afv-contenedor {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+}
+.afv {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  width: 876px;
+  background-color: white;
+}
+
+.afv .iz {
+  display: flex;
+  align-items: center;
+  width: 828px;
+}
+.afv .der {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+}
+.der .puntos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  border-radius: 8px;
+  padding: 0 16px;
+  background-color: rgb(228,230,235);
+}
+.puntos p{
+  font-weight: 700;
+  position: relative;
+  bottom: 5px;
+  
+}
+.puntos:hover{
+  cursor: pointer;
+  background-color: rgb(201, 203, 207);
+}
+
+
+.amigos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+  font-weight: 600;
+  padding: 0 16px;
+  width: 83px;
+  height: 55px;
+  border-radius: 8px;
+}
+
+.amigos:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.102);
+}
+
+.container-cards{
+  background-color: rgb(240,242,245);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 1263px;
+}
+.dentro-container{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  width: 892px;
+  height: 1021px;
+}
+.info-der .card-der{
+  width: 360px;
+  background-color: white;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.216);
+  border-radius: 8px;
+  height: 964px;
+  & h2{
+    font-size: 20px;
+    padding: 20px 16px ;
+  }
+}
+
+.info-iz .info {
+  padding: 16px 32px 32px 16px;
+  background-color: white;
+  display: flex;
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.216);
+  flex-direction: column;
+  width: 500px;
+  height: 326px;
+  & h2{
+    font-size: 20px;
+  }
+}
+.contenedor-empleo{
+  height: 61px;
+  width: 452px;
+}
+.empleo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 32px;
+  & h3{
+    font-size: 17px;
+    font-weight: 500;
+    padding-bottom: 5px;
+  }
+}
+
+.contenedor-conteido-empleo{
+  display: flex;
+  & .maleta{
+    padding: 6px;
+
+  }
+  & .contenido{
+    padding: 6px;
+  }
+  & p{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(45, 45, 45);
+  }
+}
