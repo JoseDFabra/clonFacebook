@@ -6,13 +6,13 @@ Este proyecto es un clon de la interfaz de usuario de Facebook, creado utilizand
 
 ## Acerca del proyecto
 
-El Clon de Facebook es una reproducción de la interfaz de usuario de la popular red social. Incluye elementos como la barra de navegación, el feed de noticias, la sección de historias, el panel lateral y más. Es una representación estática de la interfaz y no incluye funcionalidades interactivas ni responsividad para diferentes dispositivos.
+El Clon de Facebook es una reproducción de la interfaz de usuario de la popular red social. Es una representación estática de la interfaz y no incluye funcionalidades interactivas ni responsividad para diferentes dispositivos.
 
 **Detalles adicionales:**
 - Barra de navegación: La barra de navegación superior incluye elementos como el logo de Facebook, el campo de búsqueda y los íconos de notificaciones, mensajes y solicitudes de amistad.
 - Foto y portada de perfil: La página de perfil incluye una foto de perfil y una imagen de portada, que pueden personalizarse según el usuario.
 - Personas que también se llaman José: En la sección de sugerencias de amistad, se muestran personas que comparten el mismo nombre con el usuario.
-- Fotos del perfil del usuario: Se muestran miniaturas de las fotos del perfil del usuario en la página de perfil.
+- Fotos del usuario: Se muestran miniaturas de las fotos del perfil del usuario en la página de perfil.
 
 Este proyecto es una oportunidad para practicar habilidades de desarrollo web front-end utilizando HTML y CSS para recrear la apariencia de la interfaz de usuario de Facebook.
 
